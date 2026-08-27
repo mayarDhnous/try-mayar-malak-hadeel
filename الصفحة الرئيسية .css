@@ -1,41 +1,102 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    transition: all 0.3s ease;
+
 }
-nav{
+
+nav {
     background-color: #0B3F80;
     height: 70px;
     width: 100%;
     position: fixed;
-    top: 0;
-    left: 0;
-    box-shadow: 0 5px 10 px rgb(0, 0, 0, 1);
 }
 
 
 nav .navbar {
-    height: 100%;
-    max-width: 1300px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: auto;
-    padding: 0 30px;
+    margin: 4px;
+    padding: 2px;
+
 
 }
 
-.navbar a {
+.navbar .right .logo {
+    display: flex;
+}
+
+.name {
+    margin-top: 10px;
+    font-size: 26px;
+    color: #FBFDFF;
+
+}
+
+
+.navbar .mid-pages a {
     font-size: 30px;
-    font-weight: 500;
-    column-rule:white;
     text-decoration: none;
+    color: aliceblue;
+    padding: 6px;
+    font-size: 17px;
+
+
 }
 
 
-.mid-pages a{
-    color: aliceblue;
+.btn,.btn-main {
+    height: 42px;
+    width: 112px;
+    outline: none;
+    border: 2px  #0E56D6 ;
+    border-radius: 10px;
+    background: #0E56D6;
+    color: #F8FAFE;
+
+}
+.btn{
+    margin-left: 20px;
+    margin :auto;
+} 
+
+-->main 
+
+.hero {
+    background-image: url("./ChatGPT Image Aug 27, 2026, 11_20_02 AM.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 300px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    color: #073674;
+    
+}
+.mainlogo {
+    display: flex;
+    align-items: center;
+    row-gap: 3px;
+}
+
+-->latest-reports
+
+.latest-reports {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.latest-reports-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #073674;
 }
