@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة ارسال البلاغات</title>
+    <link rel="stylesheet" href="./issue.css">
+</head>
+<body>
+    <div class="all">
+        <div class="start">
+     <img src="./image-removebg-preview.png" height="50px" width="50px"> 
+     <h1> ارسال بلاغ جديد</h1>
+        </div>
+        <h4>املا النموذج التالي لارسال بلاغك للجهات المختصة</h4>
+        <div class="form">
+            <form>
+                <div class="group">
+                    <label for="id1"> <b>اسم المبلغ</b> <span>*</span></label>
+                  <input type="text" placeholder="ادخل اسمك الكامل" id="id1" required>
+                </div>
+
+                <div class="group">
+                    <label for="myid"><b> نوع المشكلة</b> <span>*</span></label>
+                  <select id="myid" required>
+                 <option value="اختر نوع المشكلة ">اختر نوع المشكلة</option>
+                  <option value="مشكلة مياه">مشكلة مياه</option>
+                   <option value="حفرةفي الشارع">حفرة في الشارع </option>
+                 <option value="انارةشارع معطلة">انارة شارع معطلة </option>
+                   <option value="نفايات ">نفايات</option>
+                   </select>
+                </div>
+
+                <div class="sel">
+                     <div class="group">
+                     <label for="divid1"><b>درجة الاولوية </b><span>*</span></label>
+                      <select id="divid1" required>
+                     <option>متوسطة </option>
+                      <option>عالية</option>
+                        <option>منخفضة</option>
+                      </select>
+                       </div>
+
+                     <div class="group">
+                    <label for="divid2"><b>المنطقة</b> <span>*</span></label>
+                   <select id="divid2" required>
+                 <option>اختر المنطقة</option>
+                  <option>ابو كتيلة</option>
+                  <option>راس الجورة</option>
+                   <option>عين سارة</option>
+                 <option>الجلدة</option>
+                  </select>
+                 </div>
+               </div>
+               <div class="group">
+                <label for="id2"><b>وصف المشكلة</b> <span>*</span></label>
+               <textarea placeholder="اكتب وصفا كاملا للمشكلة " id="id2" required></textarea>
+               </div>
+             <button type="submit"> 
+                <img src="./image-removebg-preview (1).png" height="20px" width="20px">
+                ارسال البلاغ
+             </button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
