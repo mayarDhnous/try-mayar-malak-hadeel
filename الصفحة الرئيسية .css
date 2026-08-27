@@ -10,4 +10,9 @@ nav{
     background-color: #0B3F80;
     height: 70px;
     width: 100%;
+    display: flex;
+}
+
+.pages a{
+    color: aliceblue;
 }
