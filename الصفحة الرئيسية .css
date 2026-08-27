@@ -6,3 +6,8 @@
     font-family: 'Poppins', sans-serif;
     transition: all 0.3s ease;
 }
+nav{
+    background-color: #0B3F80;
+    height: 70px;
+    width: 100%;
+}
