@@ -5,6 +5,9 @@
     font-family: 'Poppins', sans-serif;
 
 }
+ body{
+    background-color: #F2F8FC;
+ }
 
 nav {
     background-color: #0B3F80;

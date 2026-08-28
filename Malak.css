@@ -6,6 +6,10 @@
      font-family: 'Poppins', sans-serif;
 
  }
+ body{
+    background-color: #F2F8FC;
+    color: #0B3F80;
+ }
 
  nav {
      background-color: #0B3F80;
@@ -157,3 +161,34 @@
      border-radius: 9px;
 
  }
+
+ #reportsContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+   
+}
+
+.report-card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: right;
+
+}
+
+
+.report-card h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.report-card p {
+    padding: 2px;
+    margin-bottom: 4px;
+    font-size: 20px;
+    color:gray ;
+
+}
+

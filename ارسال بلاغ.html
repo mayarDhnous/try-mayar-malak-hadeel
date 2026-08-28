@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>صفحة ارسال البلاغات</title>
+  <link rel="stylesheet" href="./issue.css">
+  <link rel="stylesheet" href="الصفحة الرئيسية .css">
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="navbar">
+        <div class="left">
+          <a href="ارسال بلاغ.html">
+            <button class="btn">+ارسال بلاغ </button>
+          </a>
+        </div>
+        <div class="mid-pages">
+          <a href="./الصفحة الرئيسية.html">الرئيسية</a>
+          <a href="./ارسال بلاغ.html">ارسال بلاغ</a>
+          <a href="./البلاغات.html">البلاغات</a>
+        </div>
+        <div class="right">
+          <div class="logo">
+            <img src="./image-removebg-preview.png" alt="الصورة " id="logo" height="50px" width="50px">
+            <h1 class="name">نظام بلاغات مجتمعي
+            </h1>
+
+          </div>
+        </div>
+      </div>
+
+    </nav>
+
+  </header>
+
+  <div class="page3">
+
+
+    <div class="all">
+      <div class="start">
+        <img src="./img5.png" height="50px" width="50px">
+        <h1> ارسال بلاغ جديد</h1>
+      </div>
+      <h4>املا النموذج التالي لارسال بلاغك للجهات المختصة</h4>
+      <div class="form">
+        <form id="form">
+          <div class="group">
+            <label for="id1"> <b>اسم المبلغ</b> <span>*</span></label>
+            <input type="text" placeholder="ادخل اسمك الكامل" id="id1" required>
+          </div>
+
+          <div class="group">
+            <label for="myid"><b> نوع المشكلة</b> <span>*</span></label>
+            <select id="myid" required>
+              <option value="اختر نوع المشكلة ">اختر نوع المشكلة</option>
+              <option value="مشكلة مياه">مشكلة مياه</option>
+              <option value="حفرةفي الشارع">حفرة في الشارع </option>
+              <option value="انارةشارع معطلة">انارة شارع معطلة </option>
+              <option value="نفايات ">نفايات</option>
+            </select>
+          </div>
+
+          <div class="sel">
+            <div class="group">
+              <label for="divid1"><b>درجة الاولوية </b><span>*</span></label>
+              <select id="divid1" required>
+                <option>متوسطة </option>
+                <option>عالية</option>
+                <option>منخفضة</option>
+              </select>
+            </div>
+
+            <div class="group">
+              <label for="divid2"><b>المنطقة</b> <span>*</span></label>
+              <select id="divid2" required>
+                <option>اختر المنطقة</option>
+                <option>ابو كتيلة</option>
+                <option>راس الجورة</option>
+                <option>عين سارة</option>
+                <option>الجلدة</option>
+              </select>
+            </div>
+          </div>
+          <div class="group">
+            <label for="id2"><b>وصف المشكلة</b> <span>*</span></label>
+            <textarea placeholder="اكتب وصفا كاملا للمشكلة " id="id2" required></textarea>
+          </div>
+          <button type="submit">
+            <img src="./img4.png" height="20px" width="20px">
+            ارسال البلاغ
+          </button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
