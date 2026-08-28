@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    background-color: #0B3F80;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+}
+
+
+nav .navbar {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin: 4px;
+    padding: 2px;
+
+
+}
+
+.navbar .right .logo {
+    display: flex;
+}
+
+.name {
+    margin-top: 10px;
+    font-size: 26px;
+    color: #FBFDFF;
+
+}
+
+
+.navbar .mid-pages a {
+    font-size: 30px;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 6px;
+    font-size: 17px;
+
+
+}
+
+.btn {
+    height: 42px;
+    width: 112px;
+    outline: none;
+    border: 2px #0E56D6;
+    border-radius: 10px;
+    background: #0E56D6;
+    color: #F8FAFE;
+    margin-left: 20px;
+    margin: auto;
+}
+
+
+body {
+    background-color: #F3F8FC;
+    /* display: flex;
+justify-content: center;
+align-items: center; */
+}
+
+.page3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding-top: 200px;
+}
+
+h4 {
+    color: #05256E;
+    text-align: center;
+    margin-top:10px;
+
+}
+
+.start {
+    color: #05256E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 220px;
+}
+
+.form {
+    background-color: #FBFBFB;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    width: 600px;
+    max-width: 90%;
+}
+
+.group {
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+    padding: 5px;
+    width: 100%;
+}
+
+.sel {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+span {
+    color: #BB5263;
+}
+
+button {
+    width: 100%;
+    background-color: #095AE7;
+    border: 2px solid #095AE7;
+    border-radius: 10px;
+    color: #F3F8FC;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+label {
+    color: #09104C;
+}
